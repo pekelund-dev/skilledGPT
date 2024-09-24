@@ -10,13 +10,13 @@ import java.util.List;
 @Setter
 @ToString
 public class OpenAIResponse {
-    private List<Choices> choices;
+    private List<Choice> choices;
     private long created;
     private String id;
     private String model;
     private String object;
-    private List<PromptFilterResults> prompt_filter_results;
-    private Object system_fingerprint;
+    private List<PromptFilterResult> prompt_filter_results;
+    private String system_fingerprint;
     private Usage usage;
     // getters and setters
 }

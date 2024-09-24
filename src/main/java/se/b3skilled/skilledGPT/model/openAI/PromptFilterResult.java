@@ -7,8 +7,8 @@ import lombok.ToString;
 @Getter
 @Setter
 @ToString
-public class SelfHarm {
-    private Boolean filtered;
-    private String severity;
+public class PromptFilterResult {
+    private Integer prompt_index;
+    private ContentFilterResults content_filter_results;
 }
 
